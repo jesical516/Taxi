@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TaxiViewController : UIViewController
+@property (weak, nonatomic) IBOutlet MKMapView *mapBaidu;
+
+@property (weak, nonatomic) IBOutlet UILabel *title;
 
 @end
