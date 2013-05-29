@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE37D4E17562EEE0064A269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37D4D17562EEE0064A269 /* UIKit.framework */; };
+		3AE37D5017562EEE0064A269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37D4F17562EEE0064A269 /* Foundation.framework */; };
+		3AE37D5217562EEE0064A269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37D5117562EEE0064A269 /* CoreGraphics.framework */; };
+		3AE37D5817562EEE0064A269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37D5617562EEE0064A269 /* InfoPlist.strings */; };
+		3AE37D5A17562EEE0064A269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE37D5917562EEE0064A269 /* main.m */; };
+		3AE37D5E17562EEE0064A269 /* TaxiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE37D5D17562EEE0064A269 /* TaxiAppDelegate.m */; };
+		3AE37D6017562EEE0064A269 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37D5F17562EEE0064A269 /* Default.png */; };
+		3AE37D6217562EEE0064A269 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37D6117562EEE0064A269 /* Default@2x.png */; };
+		3AE37D6417562EEE0064A269 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37D6317562EEE0064A269 /* Default-568h@2x.png */; };
+		3AE37D6717562EEE0064A269 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37D6517562EEE0064A269 /* MainStoryboard.storyboard */; };
+		3AE37D6A17562EEE0064A269 /* TaxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE37D6917562EEE0064A269 /* TaxiViewController.m */; };
+		3AE37D7217562EEE0064A269 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37D7117562EEE0064A269 /* SenTestingKit.framework */; };
+		3AE37D7317562EEE0064A269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37D4D17562EEE0064A269 /* UIKit.framework */; };
+		3AE37D7417562EEE0064A269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37D4F17562EEE0064A269 /* Foundation.framework */; };
+		3AE37D7C17562EEE0064A269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37D7A17562EEE0064A269 /* InfoPlist.strings */; };
+		3AE37D7F17562EEE0064A269 /* TaxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE37D7E17562EEE0064A269 /* TaxiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE37D7517562EEE0064A269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE37D4017562EEE0064A269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE37D4817562EEE0064A269;
+			remoteInfo = Taxi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AE37D4917562EEE0064A269 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE37D4D17562EEE0064A269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AE37D4F17562EEE0064A269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AE37D5117562EEE0064A269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AE37D5517562EEE0064A269 /* Taxi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taxi-Info.plist"; sourceTree = "<group>"; };
+		3AE37D5717562EEE0064A269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AE37D5917562EEE0064A269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AE37D5B17562EEE0064A269 /* Taxi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taxi-Prefix.pch"; sourceTree = "<group>"; };
+		3AE37D5C17562EEE0064A269 /* TaxiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxiAppDelegate.h; sourceTree = "<group>"; };
+		3AE37D5D17562EEE0064A269 /* TaxiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiAppDelegate.m; sourceTree = "<group>"; };
+		3AE37D5F17562EEE0064A269 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3AE37D6117562EEE0064A269 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3AE37D6317562EEE0064A269 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3AE37D6617562EEE0064A269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3AE37D6817562EEE0064A269 /* TaxiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxiViewController.h; sourceTree = "<group>"; };
+		3AE37D6917562EEE0064A269 /* TaxiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiViewController.m; sourceTree = "<group>"; };
+		3AE37D7017562EEE0064A269 /* TaxiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE37D7117562EEE0064A269 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AE37D7917562EEE0064A269 /* TaxiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaxiTests-Info.plist"; sourceTree = "<group>"; };
+		3AE37D7B17562EEE0064A269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AE37D7D17562EEE0064A269 /* TaxiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxiTests.h; sourceTree = "<group>"; };
+		3AE37D7E17562EEE0064A269 /* TaxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE37D4617562EEE0064A269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE37D4E17562EEE0064A269 /* UIKit.framework in Frameworks */,
+				3AE37D5017562EEE0064A269 /* Foundation.framework in Frameworks */,
+				3AE37D5217562EEE0064A269 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE37D6C17562EEE0064A269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE37D7217562EEE0064A269 /* SenTestingKit.framework in Frameworks */,
+				3AE37D7317562EEE0064A269 /* UIKit.framework in Frameworks */,
+				3AE37D7417562EEE0064A269 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE37D3E17562EEE0064A269 = {
+			isa = PBXGroup;
+			children = (
+				3AE37D5317562EEE0064A269 /* Taxi */,
+				3AE37D7717562EEE0064A269 /* TaxiTests */,
+				3AE37D4C17562EEE0064A269 /* Frameworks */,
+				3AE37D4A17562EEE0064A269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE37D4A17562EEE0064A269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE37D4917562EEE0064A269 /* Taxi.app */,
+				3AE37D7017562EEE0064A269 /* TaxiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE37D4C17562EEE0064A269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AE37D4D17562EEE0064A269 /* UIKit.framework */,
+				3AE37D4F17562EEE0064A269 /* Foundation.framework */,
+				3AE37D5117562EEE0064A269 /* CoreGraphics.framework */,
+				3AE37D7117562EEE0064A269 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE37D5317562EEE0064A269 /* Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				3AE37D5C17562EEE0064A269 /* TaxiAppDelegate.h */,
+				3AE37D5D17562EEE0064A269 /* TaxiAppDelegate.m */,
+				3AE37D6517562EEE0064A269 /* MainStoryboard.storyboard */,
+				3AE37D6817562EEE0064A269 /* TaxiViewController.h */,
+				3AE37D6917562EEE0064A269 /* TaxiViewController.m */,
+				3AE37D5417562EEE0064A269 /* Supporting Files */,
+			);
+			path = Taxi;
+			sourceTree = "<group>";
+		};
+		3AE37D5417562EEE0064A269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AE37D5517562EEE0064A269 /* Taxi-Info.plist */,
+				3AE37D5617562EEE0064A269 /* InfoPlist.strings */,
+				3AE37D5917562EEE0064A269 /* main.m */,
+				3AE37D5B17562EEE0064A269 /* Taxi-Prefix.pch */,
+				3AE37D5F17562EEE0064A269 /* Default.png */,
+				3AE37D6117562EEE0064A269 /* Default@2x.png */,
+				3AE37D6317562EEE0064A269 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AE37D7717562EEE0064A269 /* TaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE37D7D17562EEE0064A269 /* TaxiTests.h */,
+				3AE37D7E17562EEE0064A269 /* TaxiTests.m */,
+				3AE37D7817562EEE0064A269 /* Supporting Files */,
+			);
+			path = TaxiTests;
+			sourceTree = "<group>";
+		};
+		3AE37D7817562EEE0064A269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AE37D7917562EEE0064A269 /* TaxiTests-Info.plist */,
+				3AE37D7A17562EEE0064A269 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE37D4817562EEE0064A269 /* Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE37D8217562EEE0064A269 /* Build configuration list for PBXNativeTarget "Taxi" */;
+			buildPhases = (
+				3AE37D4517562EEE0064A269 /* Sources */,
+				3AE37D4617562EEE0064A269 /* Frameworks */,
+				3AE37D4717562EEE0064A269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taxi;
+			productName = Taxi;
+			productReference = 3AE37D4917562EEE0064A269 /* Taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AE37D6F17562EEE0064A269 /* TaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE37D8517562EEE0064A269 /* Build configuration list for PBXNativeTarget "TaxiTests" */;
+			buildPhases = (
+				3AE37D6B17562EEE0064A269 /* Sources */,
+				3AE37D6C17562EEE0064A269 /* Frameworks */,
+				3AE37D6D17562EEE0064A269 /* Resources */,
+				3AE37D6E17562EEE0064A269 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE37D7617562EEE0064A269 /* PBXTargetDependency */,
+			);
+			name = TaxiTests;
+			productName = TaxiTests;
+			productReference = 3AE37D7017562EEE0064A269 /* TaxiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE37D4017562EEE0064A269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Taxi;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "晨松";
+			};
+			buildConfigurationList = 3AE37D4317562EEE0064A269 /* Build configuration list for PBXProject "Taxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AE37D3E17562EEE0064A269;
+			productRefGroup = 3AE37D4A17562EEE0064A269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE37D4817562EEE0064A269 /* Taxi */,
+				3AE37D6F17562EEE0064A269 /* TaxiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE37D4717562EEE0064A269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE37D5817562EEE0064A269 /* InfoPlist.strings in Resources */,
+				3AE37D6017562EEE0064A269 /* Default.png in Resources */,
+				3AE37D6217562EEE0064A269 /* Default@2x.png in Resources */,
+				3AE37D6417562EEE0064A269 /* Default-568h@2x.png in Resources */,
+				3AE37D6717562EEE0064A269 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE37D6D17562EEE0064A269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE37D7C17562EEE0064A269 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE37D6E17562EEE0064A269 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE37D4517562EEE0064A269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE37D5A17562EEE0064A269 /* main.m in Sources */,
+				3AE37D5E17562EEE0064A269 /* TaxiAppDelegate.m in Sources */,
+				3AE37D6A17562EEE0064A269 /* TaxiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE37D6B17562EEE0064A269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE37D7F17562EEE0064A269 /* TaxiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE37D7617562EEE0064A269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE37D4817562EEE0064A269 /* Taxi */;
+			targetProxy = 3AE37D7517562EEE0064A269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AE37D5617562EEE0064A269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE37D5717562EEE0064A269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AE37D6517562EEE0064A269 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE37D6617562EEE0064A269 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE37D7A17562EEE0064A269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE37D7B17562EEE0064A269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE37D8017562EEE0064A269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AE37D8117562EEE0064A269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE37D8317562EEE0064A269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi/Taxi-Prefix.pch";
+				INFOPLIST_FILE = "Taxi/Taxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AE37D8417562EEE0064A269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi/Taxi-Prefix.pch";
+				INFOPLIST_FILE = "Taxi/Taxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AE37D8617562EEE0064A269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taxi.app/Taxi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi/Taxi-Prefix.pch";
+				INFOPLIST_FILE = "TaxiTests/TaxiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3AE37D8717562EEE0064A269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taxi.app/Taxi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi/Taxi-Prefix.pch";
+				INFOPLIST_FILE = "TaxiTests/TaxiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE37D4317562EEE0064A269 /* Build configuration list for PBXProject "Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE37D8017562EEE0064A269 /* Debug */,
+				3AE37D8117562EEE0064A269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE37D8217562EEE0064A269 /* Build configuration list for PBXNativeTarget "Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE37D8317562EEE0064A269 /* Debug */,
+				3AE37D8417562EEE0064A269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AE37D8517562EEE0064A269 /* Build configuration list for PBXNativeTarget "TaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE37D8617562EEE0064A269 /* Debug */,
+				3AE37D8717562EEE0064A269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE37D4017562EEE0064A269 /* Project object */;
+}
